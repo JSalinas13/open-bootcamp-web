@@ -30,7 +30,6 @@ $color-footer: rgb(117, 98, 133);
     }
 }
 
-
 .btn-sec {
     @include btn-base();
     color: black;
@@ -47,7 +46,6 @@ $color-footer: rgb(117, 98, 133);
         @include btn-sm-modify();
     }
 }
-
 
 .main-menu {
     margin-bottom: 0;
@@ -110,7 +108,6 @@ $color-footer: rgb(117, 98, 133);
         text-align: center;
     }
 }
-
 
 .icon-desc {
     display: flex;
