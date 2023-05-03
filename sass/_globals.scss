@@ -28,3 +28,32 @@ body {
 .logo img {
     max-width: 7rem;
 }
+
+.sec-home {
+    display: flex;
+    align-items: center;
+    @include section-display();
+
+    .home-cta {
+        flex: 1;
+
+        .cta-text {
+            color: components.$color-main;
+        }
+
+        .home-title {
+            width: 20rem;
+            font-size: 3rem;
+        }
+
+        .home-description {
+            width: 300px
+        }
+
+        .lead-magnet {
+            .input-col {
+                max-width: 200px
+            }
+        }
+    }
+}
